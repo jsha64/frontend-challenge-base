@@ -107,6 +107,26 @@ export {
 };
 ```
 
+## Obtener una API Key de TMDb
+
+1. Ve a TMDb y crea una cuenta si no tienes una.
+
+2. Una vez que hayas iniciado sesión, dirígete a la sección de API desde tu perfil.
+
+3. Solicita una clave API (API Key).
+
+4. Guarda esta clave para usarla en tu proyecto.
+
+## Configurar variables de entorno
+
+En la raíz de tu proyecto, crea un archivo llamado .env.local y agrega lo siguiente:
+
+```bash
+TMDB_API_KEY=api_key
+```
+
+Reemplaza `api_key` con la clave API que obtuviste.
+
 Abre la terminal o consola en la raiz del proyecto y escribir el comando que levanta el servidor local:
 
 `npm run dev`
